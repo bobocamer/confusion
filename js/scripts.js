@@ -10,3 +10,10 @@ $("#carousel-button").click(function(){
         $("#carousel-button").children("span").addClass('fa-pause');
     }
 });
+$("#loginButton").click(function(){
+    $("#loginModal").modal('show');
+});
+
+$("#reserve-button").click(function(){
+    $("#reservemodal").modal('show');
+})
